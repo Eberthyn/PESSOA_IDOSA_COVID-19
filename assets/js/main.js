@@ -86,3 +86,14 @@ if (tam <= 980) {
 } else {
   $("#rodape2").attr("src", "assets/images/rodape/logos3.jpg");
 }
+
+/* Rola tela para o Inicio da Aula */
+$(".botaoComecar").click(function() {
+  $('html, body').animate({
+    scrollTop: 800
+  }, 500);
+});
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
