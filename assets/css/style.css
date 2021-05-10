@@ -313,6 +313,15 @@ body, header, footer{
     position: relative;
 }
 
+#Aula5Img1{
+    background-image: url(../images/aula5/img1.png);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
 
 .informativo{
     background-color: #F5F5F5;
@@ -489,7 +498,7 @@ ul li{
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     border-radius: 25px;
-    background-color: #158087;   
+    background-color: #2E4057;   
 }
 #fase1, #fase2, #fase3, #fase4, #fase5{
     height: 220px;
