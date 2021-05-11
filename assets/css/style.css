@@ -239,10 +239,6 @@ body, header, footer{
 .cardImg{
     position: relative;
 }
-#questionario{
-    margin-left: 9.5% !important;
-    margin-right: 9.5% !important;
-}
 #cartaz{
     margin-top: 50px !important;
     color: #158087;
@@ -483,10 +479,10 @@ ul li{
     content: "\f0d7";
 }
 
-/* Flip Card */
-#quiz, #quiz2, #quiz3{
-    height: 400px;
-    width: 280px;
+/* Slider Card */
+.sliderCard{
+    height: 450px;
+    width: 270px;
     position: relative;
     -webkit-transition: all 0.4s linear;
     -moz-transition: all 0.4s linear;
@@ -498,44 +494,27 @@ ul li{
     margin-bottom: 30px;
     box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
     border-radius: 25px;
-    background-color: #2E4057;   
-}
-#fase1, #fase2, #fase3, #fase4, #fase5{
-    height: 220px;
-    width: 400px;
-    max-width: 100%;
-    position: relative;
-    -webkit-transition: all 0.4s linear;
-    -moz-transition: all 0.4s linear;
-    transition: all 0.4s linear;
-    -moz-transform-style: preserve-3d;
-    -webkit-transform-style: preserve-3d;
-    transform-style: preserve-3d;
-    margin: auto;
-    margin-bottom: 30px;
-    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-    border-radius: 25px;
-    background-color: #158087;
-    cursor: pointer;
+    background-color: #158087; 
     color: white;
-    font-size: medium;
-    
 }
-.backFase{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    width: 400px;
-    height: 220px;
-    max-width: 100%;
-    max-height: 100%;
-    font-size: 13px;
+.sliderCard2{
+    height: 450px;
+    width: 270px;
+    position: relative;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    -moz-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    margin: auto;
+    margin-bottom: 30px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    border-radius: 25px;
+    background-color: #2E4057;
+    color: white;
 }
-.backFase p{
-    margin: 0px;
-}
-.front, .back{
+.front{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -547,39 +526,6 @@ ul li{
     -webkit-backface-visibility: hidden; /*Safari*/
     -moz-backface-visibility: hidden;
 }
-.front {
-    z-index: 2;
-    -webkit-transform: rotateY(0deg);
-    transform: rotateY(0deg);
-   }
-.back{ 
-    -webkit-transform: rotateY(-180deg);
-    -moz-transform: rotateY(-180deg);
-    -o-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-
-}
-.card.flipped {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-}
-.resposta {
-    flex: 1;
-    display: flex;
-    border: 0px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-    height: 85px;
-    width: 258px;
-    padding: 5px;
-    cursor: pointer;
-    align-items: center;
-    background-color: #FFF;
-}
-
 
 
 /*Carousel*/
