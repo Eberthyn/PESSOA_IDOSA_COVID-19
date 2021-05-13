@@ -90,7 +90,7 @@ if (tam <= 980) {
 /* Rola tela para o Inicio da Aula */
 $(".botaoComecar").click(function () {
   $('html, body').animate({
-    scrollTop: 800
+    scrollTop: 700
   }, 500);
 });
 

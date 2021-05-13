@@ -182,7 +182,7 @@ body, header, footer{
 .step:last-child .line {
   top: 25px;
   left: 11.5px;
-  height: 85%;
+  height: 80%;
 }
 
 .contentMenu {
@@ -616,7 +616,7 @@ footer{
 /* Smartphone */
 @media (max-width: 480px){
     .step:last-child .line{
-        height: 88%;
+        height: 82%;
     }
     #quiz, #quiz2, #quiz3{
         width: 270px;
@@ -664,6 +664,38 @@ footer{
     margin-bottom: 65px;
 }
 .botaoComecar:hover{
+    color: #2E4057;
+}
+
+.botaoAVA{
+    background-color: #158087;
+    border-radius: 25px;
+    color: white;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+.botaoAVA:hover{
+    color: #2E4057;
+}
+
+.botaoMOOC{
+    background-color: white;
+    border: solid 1px #158087;
+    border-radius: 25px;
+    color: #158087;
+    width: 250px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 65px;
+}
+.botaoMOOC:hover{
     color: #2E4057;
 }
 
