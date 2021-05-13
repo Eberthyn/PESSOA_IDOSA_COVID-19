@@ -1,7 +1,3 @@
-$(document).ready(function() {
-  $('map').imageMapResize();
-});
-
 /* Fixa Menu Superior */
 $(window).scroll(function () {
 

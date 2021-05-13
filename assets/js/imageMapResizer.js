@@ -161,3 +161,5 @@
       }
     }
   })()
+
+   $('map').imageMapResize();
