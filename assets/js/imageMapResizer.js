@@ -162,4 +162,3 @@
     }
   })()
 
-   $('map').imageMapResize();

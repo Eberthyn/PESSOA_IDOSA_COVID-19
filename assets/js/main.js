@@ -98,3 +98,16 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
+window.onload = function () {
+  imageMapResize();
+}
+
+$('map').imageMapResize();
+
+$('#collapseFive5').on('shown.bs.collapse	', function () {
+  $('map').imageMapResize();
+})
+
+$('#conteudo').on('shown.bs.collapse	', function () {
+  $('map').imageMapResize();
+})
