@@ -89,12 +89,47 @@ if (tam <= 980) {
 }
 
 /* Rola tela para o Inicio da Aula */
-$(".botaoComecar").click(function () {
+$("#inicioAula1").click(function () {
   $('html, body').animate({
-    scrollTop: 700
+    scrollTop: 900
   }, 500);
 });
 
+$("#inicioAula2").click(function () {
+  $('html, body').animate({
+    scrollTop: 1000
+  }, 500);
+});
+
+$("#inicioAula3").click(function () {
+  $('html, body').animate({
+    scrollTop: 1000
+  }, 500);
+});
+
+$("#inicioAula4").click(function () {
+  $('html, body').animate({
+    scrollTop: 820
+  }, 500);
+});
+
+$("#inicioAula5").click(function () {
+  $('html, body').animate({
+    scrollTop: 900
+  }, 500);
+});
+
+$("#inicioAula6").click(function () {
+  $('html, body').animate({
+    scrollTop: 650
+  }, 500);
+});
+
+$("#inicioAula7").click(function () {
+  $('html, body').animate({
+    scrollTop: 780
+  }, 500);
+});
 
 /* Adiciona tooltip (Abas) */
 $(function () {
