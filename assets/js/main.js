@@ -89,49 +89,138 @@ if (tam <= 980) {
 }
 
 /* Rola tela para o Inicio da Aula */
+var tam = $(window).width();
+if (tam <= 980) {
 $("#inicioAula1").click(function () {
   $('html, body').animate({
-    scrollTop: 900
+    scrollTop: 1050
   }, 500);
 });
 
 $("#inicioAula2").click(function () {
   $('html, body').animate({
-    scrollTop: 1000
+    scrollTop: 1080
   }, 500);
 });
 
 $("#inicioAula3").click(function () {
   $('html, body').animate({
-    scrollTop: 1000
+    scrollTop: 1100
   }, 500);
 });
 
 $("#inicioAula4").click(function () {
   $('html, body').animate({
-    scrollTop: 820
+    scrollTop: 980
   }, 500);
 });
 
 $("#inicioAula5").click(function () {
   $('html, body').animate({
-    scrollTop: 900
+    scrollTop: 1100
   }, 500);
 });
 
 $("#inicioAula6").click(function () {
   $('html, body').animate({
-    scrollTop: 650
+    scrollTop: 710
   }, 500);
 });
 
 $("#inicioAula7").click(function () {
   $('html, body').animate({
-    scrollTop: 780
+    scrollTop: 950
   }, 500);
 });
+
+if (tam <= 480) {
+  $("#inicioAula1").click(function () {
+    $('html, body').animate({
+      scrollTop: 1450
+    }, 500);
+  });
+  
+  $("#inicioAula2").click(function () {
+    $('html, body').animate({
+      scrollTop: 1430
+    }, 500);
+  });
+  
+  $("#inicioAula3").click(function () {
+    $('html, body').animate({
+      scrollTop: 1450
+    }, 500);
+  });
+  
+  $("#inicioAula4").click(function () {
+    $('html, body').animate({
+      scrollTop: 1470
+    }, 500);
+  });
+  
+  $("#inicioAula5").click(function () {
+    $('html, body').animate({
+      scrollTop: 1635
+    }, 500);
+  });
+  
+  $("#inicioAula6").click(function () {
+    $('html, body').animate({
+      scrollTop: 1005
+    }, 500);
+  });
+  
+  $("#inicioAula7").click(function () {
+    $('html, body').animate({
+      scrollTop: 1395
+    }, 500);
+  });
+}
+} else {
+  $("#inicioAula1").click(function () {
+    $('html, body').animate({
+      scrollTop: 900
+    }, 500);
+  });
+  
+  $("#inicioAula2").click(function () {
+    $('html, body').animate({
+      scrollTop: 1000
+    }, 500);
+  });
+  
+  $("#inicioAula3").click(function () {
+    $('html, body').animate({
+      scrollTop: 1000
+    }, 500);
+  });
+  
+  $("#inicioAula4").click(function () {
+    $('html, body').animate({
+      scrollTop: 820
+    }, 500);
+  });
+  
+  $("#inicioAula5").click(function () {
+    $('html, body').animate({
+      scrollTop: 900
+    }, 500);
+  });
+  
+  $("#inicioAula6").click(function () {
+    $('html, body').animate({
+      scrollTop: 650
+    }, 500);
+  });
+  
+  $("#inicioAula7").click(function () {
+    $('html, body').animate({
+      scrollTop: 780
+    }, 500);
+  });
 
 /* Adiciona tooltip (Abas) */
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+}
