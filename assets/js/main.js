@@ -10,11 +10,13 @@ $(window).scroll(function () {
   if ($(window).scrollTop() === 0) {
     $(".navbar").removeClass("fixed-top");
     $("#row-main").css("padding-top", "0%");
+    $(".navbar").css("box-shadow", "0px 0px 0px rgba(0,0,0,0.5)")
 
   } else {
     $(".navbar").addClass("fixed-top");
     $("#row-main").css("padding-top", ($('#menuSuperior').css("height")));
     $(".stepContainer").css("padding-bottom", ($('#menuSuperior').css("height")));
+    $(".navbar").css("box-shadow", "0px 2px 2px rgba(0,0,0,0.5)")
   }
 
 });
@@ -94,20 +96,16 @@ $(".botaoComecar").click(function () {
   }, 500);
 });
 
+
+/* Adiciona tooltip */
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-window.onload = function () {
-  imageMapResize();
+/* Altera HTML dos cards de acordo com tipo de tela */
+var tam = $(window).width();
+if (tam <= 980) {
+  $
+} else {
+  $("#sliderCard1").html("src", "assets/images/rodape/logos3.jpg");
 }
-
-$('map').imageMapResize();
-
-$('#collapseFive5').on('shown.bs.collapse	', function () {
-  $('map').imageMapResize();
-})
-
-$('#conteudo').on('shown.bs.collapse	', function () {
-  $('map').imageMapResize();
-})

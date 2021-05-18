@@ -56,7 +56,7 @@ var TagsToTip	= true		// false or true - if true, HTML elements to be converted 
 // Example: onmouseover="Tip('Tooltip text', LEFT, true, BGCOLOR, '#FF9900', FADEIN, 400)"
 
 config. Above			= false		// false or true - tooltip above mousepointer
-config. BgColor			= '#FFFFCE'	// Background colour (HTML colour value, in quotes)
+config. BgColor			= '#F5F5F5'	// Background colour (HTML colour value, in quotes)
 config. BgImg			= ''		// Path to background image, none if empty string ''
 config. BorderColor		= '#CCC'
 config. BorderStyle		= 'dashed'	// Any permitted CSS value, but I recommend 'solid', 'dotted' or 'dashed'

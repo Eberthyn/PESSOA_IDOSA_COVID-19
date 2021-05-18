@@ -135,7 +135,7 @@ body, header, footer{
 }
 
 .items {
-  margin-top: 20px;
+  margin-top: 10px !important;
   position: relative;
   max-width: 100%;
 }
@@ -148,10 +148,11 @@ body, header, footer{
 .subItem a{
     color: black;
     font-size: 13px;
-    
+
 }
 .subItem p{
-    margin-bottom: 20px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
     margin-left: 30px!important;
 }
 .containerItem {
@@ -230,7 +231,7 @@ body, header, footer{
     padding: 0% 14% 0% 9.5% !important;
     margin: 0% !important;
 }
-#inicioAula1, #inicioAula2, #inicioAula3, #inicioAula4, #inicioAula5, #inicioAula6{
+.tarja{
     margin-top: -1.4px;
 }
 .row{
@@ -271,6 +272,9 @@ body, header, footer{
 .blocoStyle1{
     padding: 30px 100px 30px 0px !important;
 }
+.blocoStyle1 a{
+    color: white;
+}
 .blocoStyle2{
     padding: 50px 50px 50px 0px !important;
 }
@@ -278,16 +282,16 @@ body, header, footer{
     list-style: none;
 }
 .blocoTexto li p{
-        margin-bottom: 30px;
-        max-width: 90ch;
-        margin-left: 0px !important;
+    margin-bottom: 30px;
+    /*max-width: 90ch;*/
+    margin-left: 0px !important;
 }
 .blocoTexto p{
-    margin-left: 40px;  
+    margin-left: 40px;
 }
 .blocoTexto .pinfo{
     margin-top: 10px !important;
-    margin-left: 40px;  
+    margin-left: 40px;
 }
 
 /* Imagem do Box Verde */
@@ -360,7 +364,7 @@ h1{
     color: #158087;
 }
 h2{
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 30px;
     margin-top: 50px;
@@ -375,7 +379,7 @@ h3{
 }
 p{
     margin-bottom: 30px;
-    max-width: 90ch;
+    /*max-width: 90ch;*/
 }
 p.textoVerde{
     max-width: 100% !important;
@@ -547,7 +551,11 @@ ul li{
 .carousel-indicators .active{
     background-color: #3e3e3e;
 }
-
+.carousel-control-next,.carousel-control-prev{
+    filter: invert(100%);
+    margin: -60px;
+    cursor: pointer;
+}
 
 /* Barra de Navegação */
 .navegacao{
@@ -559,13 +567,15 @@ ul li{
     color: white;
     font-size: 18px;
     font-weight: bold;
-    display: inline-flex;
+   /* display: inline-flex;*/
     text-decoration: none;
-    margin-bottom: 15px;
 }
 #proxima,  #anterior{
     color: white; 
     padding: 2% 15% 0% 15%;
+}
+#proxima p, #anterior p{
+    margin-top: 15px;
 }
 
 
@@ -611,6 +621,9 @@ footer{
     .step:last-child .line{
         height: 80% ;
     }
+    .carousel-control-next,.carousel-control-prev{
+    margin: -40px;
+}
 }
 
 /* Smartphone */
