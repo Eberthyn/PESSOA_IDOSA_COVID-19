@@ -154,5 +154,16 @@
         .css('transition', enable)
     })
   };
+
+/* Navegação flip card com touch*/
+$(".carousel").carousel({
+  interval: false,
+  pause: true
+});
+
+
+$('.carousel .carousel-inner').on('dragstart', 'a', function () {
+  return false;
+});
   
 }(jQuery);

@@ -270,13 +270,13 @@ body, header, footer{
     color: white;
 }
 .blocoStyle1{
-    padding: 30px 100px 30px 0px !important;
+    padding: 40px 40px 10px 40px !important;
+}
+.blocoStyle2{
+    padding: 40px 40px 10px 0px !important;
 }
 .blocoStyle1 a{
     color: white;
-}
-.blocoStyle2{
-    padding: 50px 50px 50px 0px !important;
 }
 .blocoTexto li{
     list-style: none;
@@ -287,10 +287,6 @@ body, header, footer{
     margin-left: 0px !important;
 }
 .blocoTexto p{
-    margin-left: 40px;
-}
-.blocoTexto .pinfo{
-    margin-top: 10px !important;
     margin-left: 40px;
 }
 
@@ -440,10 +436,7 @@ ul li{
 }
 
 
-/* Check Box */
-.form-check-label{
-    font-weight: bold;
-}
+/* Centralizador */
 .centro{
     display: flex;
     justify-content: center;
@@ -583,6 +576,9 @@ ul li{
 footer{
     padding: 1% 0% 1% 0%;
 }
+#rodape1, #rodape2{
+    max-width: 60%;
+}
 
 
 /* Recolhe Sidebar */ 
@@ -640,6 +636,18 @@ footer{
     }
     .carousel-control-next,.carousel-control-prev{
         display: none;
+    }
+    .blocoStyle1{
+        padding: 30px 30px 10px 30px !important;
+    }
+    .blocoStyle2{
+        padding: 30px 30px 10px 0px !important;
+    }
+    .informativo{
+        padding: 10px 0px 10px 0px;
+    }
+    .blocoTexto p{
+        margin-left: 30px;
     }
 }
 

@@ -77,16 +77,6 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-/* Altera rodapé entre Desktop e Tablet/Smartphone */
-var tam = $(window).width();
-if (tam <= 980) {
-  $("#rodape1").attr("src", "assets/images/rodape/logos1.jpg");
-  $("#rodape2").attr("src", "assets/images/rodape/logos2.jpg");
-  $("#colunaRodape").removeClass("col-md-10");
-  $("#colunaRodape").addClass("col-md-8");
-} else {
-  $("#rodape2").attr("src", "assets/images/rodape/logos3.jpg");
-}
 
 /* Rola tela para o Inicio da Aula */
 var tam = $(window).width();
