@@ -54,7 +54,6 @@
       this.cycling = !!this.carousel.interval
       this.cycling && this.carousel.pause()
     }
-
     e.preventDefault()
     this.dx = dx / (this.width || 1) * 100
     this.swipe(this.dx)
@@ -155,16 +154,5 @@
         .css('transition', enable)
     })
   };
-
-  /* Navegação card com touch*/
-$(".carousel").carousel({
-  interval: false,
-  pause: true
-});
-
-
-$('.carousel .carousel-inner').on('dragstart', 'a', function () {
-  return false;
-});
-
+  
 }(jQuery);

@@ -23,7 +23,6 @@ $(window).scroll(function () {
 
 /*Controla funções no Menu Lateral*/
 $(function () {
-  console.log('2');
   var Accordion = function (el, multiple) {
     this.el = el || {};
     this.multiple = multiple || false;
@@ -97,15 +96,7 @@ $(".botaoComecar").click(function () {
 });
 
 
-/* Adiciona tooltip */
+/* Adiciona tooltip (Abas) */
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
-
-/* Altera HTML dos cards de acordo com tipo de tela */
-var tam = $(window).width();
-if (tam <= 980) {
-  $
-} else {
-  $("#sliderCard1").html("src", "assets/images/rodape/logos3.jpg");
-}

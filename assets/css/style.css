@@ -553,8 +553,8 @@ ul li{
 }
 .carousel-control-next,.carousel-control-prev{
     filter: invert(100%);
-    margin: -60px;
     cursor: pointer;
+    margin: 200px;
 }
 
 /* Barra de Navegação */
@@ -622,8 +622,9 @@ footer{
         height: 80% ;
     }
     .carousel-control-next,.carousel-control-prev{
-    margin: -40px;
-}
+       margin: 60px;
+    }
+    
 }
 
 /* Smartphone */
@@ -631,17 +632,14 @@ footer{
     .step:last-child .line{
         height: 82%;
     }
-    #quiz, #quiz2, #quiz3{
-        width: 270px;
-    }
-    .backFase{
-        font-size: 11px !important;
-    }
     .informativo ul{
     padding-inline-start: 0px;
     }
     .accordion ul{
     padding-inline-start: 0px;
+    }
+    .carousel-control-next,.carousel-control-prev{
+        display: none;
     }
 }
 
