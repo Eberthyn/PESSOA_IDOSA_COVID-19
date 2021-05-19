@@ -82,7 +82,6 @@ $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
 
-
 /* Rola tela para o Inicio da Aula de acordo com tamanho da tela*/
 $(document).ready(function(){
   var tam = $(window).width();
@@ -171,7 +170,6 @@ $(document).ready(function(){
           scrollTop: 1395
         }, 500);
       });
-    
 
   } else {
     $("#inicioAula1").click(function () {
@@ -216,5 +214,4 @@ $(document).ready(function(){
       }, 500);
     });
 }
-});
-
+})

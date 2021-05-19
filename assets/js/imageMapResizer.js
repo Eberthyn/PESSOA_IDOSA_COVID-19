@@ -168,6 +168,6 @@ $('#collapseFive5').on('shown.bs.collapse	', function () {
   $('map').imageMapResize();
 })
 
-$('#conteudo').on('shown.bs.collapse	', function () {
+$('.mostraAula').on('shown.bs.collapse	', function () {
   $('map').imageMapResize();
 })
