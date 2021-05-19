@@ -268,14 +268,9 @@ body, header, footer{
 .blocoTexto{
     background-color: #158087;
     color: white;
-}
-.blocoStyle1{
     padding: 40px 40px 10px 40px !important;
 }
-.blocoStyle2{
-    padding: 40px 40px 10px 0px !important;
-}
-.blocoStyle1 a{
+.blocoTexto a{
     color: white;
 }
 .blocoTexto li{
@@ -286,8 +281,8 @@ body, header, footer{
     /*max-width: 90ch;*/
     margin-left: 0px !important;
 }
-.blocoTexto p{
-    margin-left: 40px;
+ul{
+    padding-inline-start: 20px !important;
 }
 
 /* Imagem do Box Verde */
@@ -348,7 +343,15 @@ hr{
     margin-top: 30px;
     margin-bottom: 30px;
 }
-
+.boxFinal{
+    background-color: #158087;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+.boxFinal p{
+    margin: 30px 7% 30px 7%;
+}
 
 /* Formatação de Fontes*/
 h1{
@@ -637,17 +640,11 @@ footer{
     .carousel-control-next,.carousel-control-prev{
         display: none;
     }
-    .blocoStyle1{
+    .blocoTexto{
         padding: 30px 30px 10px 30px !important;
-    }
-    .blocoStyle2{
-        padding: 30px 30px 10px 0px !important;
     }
     .informativo{
         padding: 10px 0px 10px 0px;
-    }
-    .blocoTexto p{
-        margin-left: 30px;
     }
 }
 
