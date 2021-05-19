@@ -83,7 +83,7 @@ $(function () {
 })
 
 
-/* Rola tela para o Inicio da Aula */
+/* Rola tela para o Inicio da Aula de acordo com tamanho da tela*/
 $(document).ready(function(){
   var tam = $(window).width();
   if (tam <= 980) {
@@ -128,6 +128,50 @@ $(document).ready(function(){
         scrollTop: 950
       }, 500);
     });
+  }
+    if (tam <= 480) {
+      $("#inicioAula1").click(function () {
+        $('html, body').animate({
+          scrollTop: 1450
+        }, 500);
+      });
+    
+      $("#inicioAula2").click(function () {
+        $('html, body').animate({
+          scrollTop: 1430
+        }, 500);
+      });
+    
+      $("#inicioAula3").click(function () {
+        $('html, body').animate({
+          scrollTop: 1450
+        }, 500);
+      });
+    
+      $("#inicioAula4").click(function () {
+        $('html, body').animate({
+          scrollTop: 1470
+        }, 500);
+      });
+    
+      $("#inicioAula5").click(function () {
+        $('html, body').animate({
+          scrollTop: 1635
+        }, 500);
+      });
+    
+      $("#inicioAula6").click(function () {
+        $('html, body').animate({
+          scrollTop: 1005
+        }, 500);
+      });
+    
+      $("#inicioAula7").click(function () {
+        $('html, body').animate({
+          scrollTop: 1395
+        }, 500);
+      });
+    
 
   } else {
     $("#inicioAula1").click(function () {
@@ -174,49 +218,3 @@ $(document).ready(function(){
 }
 });
 
-$(window).resize(function(){
-  var tam = $(window).width();
-if (tam <= 480) {
-  $("#inicioAula1").click(function () {
-    $('html, body').animate({
-      scrollTop: 1450
-    }, 500);
-  });
-
-  $("#inicioAula2").click(function () {
-    $('html, body').animate({
-      scrollTop: 1430
-    }, 500);
-  });
-
-  $("#inicioAula3").click(function () {
-    $('html, body').animate({
-      scrollTop: 1450
-    }, 500);
-  });
-
-  $("#inicioAula4").click(function () {
-    $('html, body').animate({
-      scrollTop: 1470
-    }, 500);
-  });
-
-  $("#inicioAula5").click(function () {
-    $('html, body').animate({
-      scrollTop: 1635
-    }, 500);
-  });
-
-  $("#inicioAula6").click(function () {
-    $('html, body').animate({
-      scrollTop: 1005
-    }, 500);
-  });
-
-  $("#inicioAula7").click(function () {
-    $('html, body').animate({
-      scrollTop: 1395
-    }, 500);
-  });
-}
-})
