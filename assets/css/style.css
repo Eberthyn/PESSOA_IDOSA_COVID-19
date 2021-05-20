@@ -75,6 +75,9 @@ body, header, footer{
     width: 35px;
     z-index: 3;
 }
+#sidebarButton2 img{
+    margin-bottom: 0px !important;
+}
 .hidden {
   display:none;
 }
