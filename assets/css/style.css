@@ -481,7 +481,7 @@ ul li{
 
 /* Slider Card */
 .sliderCard{
-    height: 450px;
+    height: 460px;
     width: 270px;
     position: relative;
     -webkit-transition: all 0.4s linear;
@@ -498,7 +498,7 @@ ul li{
     color: white;
 }
 .sliderCard2{
-    height: 450px;
+    height: 460px;
     width: 270px;
     position: relative;
     -webkit-transition: all 0.4s linear;
@@ -526,6 +526,9 @@ ul li{
     -webkit-backface-visibility: hidden; /*Safari*/
     -moz-backface-visibility: hidden;
 }
+.sliderCard p, img{
+    margin-bottom: 1.25rem !important;
+}
 
 
 /*Carousel*/
@@ -548,6 +551,7 @@ ul li{
     background-color: #3e3e3e;
 }
 .carousel-control-next,.carousel-control-prev{
+    position: absolute;
     filter: invert(100%);
     cursor: pointer;
     margin: 200px;
